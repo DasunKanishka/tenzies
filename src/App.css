@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body,
+html {
+	font-family: 'Inter', sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.app-logo {
+	height: 10vmin;
+	pointer-events: none;
+}
+
+.app-link {
+	color: #ffffff;
+}
+
+.dice-container {
+	max-width: 600px;
+	margin: auto;
+}
+
+.die {
+	height: 60px;
+	width: 60px;
+}
